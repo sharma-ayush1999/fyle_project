@@ -1,0 +1,34 @@
+.header{
+    .header-container{
+        padding-left: 13.75rem;
+        padding-right: 15.75rem;
+        padding-top: 9.375rem;
+        .header-left{
+            width: 30.5625rem;
+            padding-top: 2rem;
+            h1{
+                width: 30.5625rem;
+                color: #31373D;
+                font-size: 3.125rem;
+                font-weight: 700;
+                line-height: 3.625rem;
+                text-align: left;
+                letter-spacing: 0.1rem;
+            }
+            P{
+                padding-top: 1rem;
+                width: 30rem;
+            }
+            .header-btn{
+                width: 29rem;
+                padding-top: 1rem;
+            }
+        }
+        .header-right{
+            .header-img{
+                width: 17.5625rem;
+                height: 20.6875rem;
+            }
+        }
+    }
+}

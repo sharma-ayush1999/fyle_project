@@ -1,0 +1,29 @@
+.btn{
+    width: 13.75rem;
+    height: 3rem;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.1875rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.btn-blue{
+    background-color: #0099FF;
+}
+.btn-blue:hover{
+    background-color: #5ed100;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    border: 2px solid #0099FF;
+    color: #31373D;
+}
+.btn-transparent:hover{
+    background-color: #5ed100;
+    border: 2px solid #5ed100;
+    color: #fff;
+}
