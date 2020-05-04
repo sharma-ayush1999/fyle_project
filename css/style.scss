@@ -1,7 +1,13 @@
+@import "fontawesome";
+@import "solid";
+@import "regular";
+@import "brands";
 @import "reset";
 @import "font-family";
+@import "mediaquery";
 @import "button";
 @import "header";
+@import "banner";
 
 body{
     padding-left: 3rem;
@@ -17,4 +23,14 @@ body{
 .flex{
     display: flex;
     justify-content: space-between;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
 }
