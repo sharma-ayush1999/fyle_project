@@ -6313,7 +6313,7 @@ readers do not read off random characters that represent icons */
   background-color: #F9F9F9;
   border-radius: 5px;
   width: 44%;
-  height: 19.4rem;
+  height: 29.3rem;
 }
 
 .banner .banner-container .banner-content .ban-content--right .ban-cr--area i {
@@ -6323,7 +6323,7 @@ readers do not read off random characters that represent icons */
 .banner .banner-container .banner-content .ban-content--right .ban-cr--area li {
   line-height: 2.9rem;
   font-weight: 700;
-  font-size: 0.875rem;
+  font-size: 1.1rem;
 }
 
 .banner .banner-container .banner-content .ban-content--right .ban-cr--area li:nth-of-type(1) {
