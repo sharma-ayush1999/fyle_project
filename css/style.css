@@ -6237,24 +6237,25 @@ readers do not read off random characters that represent icons */
     width: 90% !important;
     left: 5% !important;
     top: 39% !important;
-    height: 27.063rem !important;
+    height: 25.063rem !important;
   }
   .banner .ban-content--left {
     width: 40% !important;
     padding-top: 15% !important;
   }
   .banner .ban-content--left li {
-    line-height: 2.6rem !important;
+    line-height: 2.4rem !important;
   }
   .banner .ban-content--right {
     width: 50% !important;
-    height: 25.6rem !important;
+    height: 23.6rem !important;
+  }
+  .banner .ban-content--right li:nth-of-type(1) {
+    line-height: 1.6rem !important;
   }
   .banner .ban-content--right li {
-    line-height: 2.6rem !important;
-  }
-  .banner li:nth-of-type(1) {
-    line-height: 1.6rem !important;
+    line-height: 2.4rem !important;
+    font-size: 0.8rem !important;
   }
 }
 
