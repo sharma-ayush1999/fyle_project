@@ -1,0 +1,29 @@
+.gallery{
+    width: 48%;
+    margin: 0px auto;
+    margin-top: 16%;
+    .gallery-container{
+
+        .gallery-heading{
+            text-align: center;
+            h2{
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 2.125rem;
+            }
+            p{
+                color: #8B8E91;
+                font-size: 0.875rem;
+                line-height: 2.125rem;
+                span{
+                    color: #0099FF;
+                }
+            }
+        }
+        .gallery-btn{
+            width: 73.9%;
+            margin: 0px auto;
+            padding: 2rem;
+        }
+    }
+}

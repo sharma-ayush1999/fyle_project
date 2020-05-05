@@ -6,3 +6,8 @@ let cross = document.getElementsByClassName('fa-times');
 for (let i = 0; i < cross.length; i++) {
     cross[i].style.color="#FF3F57";
 }
+
+document.getElementsByClassName('btn-white').addEventListener('click',function(){
+
+    document.getElementsByClassName('btn-white').style.borderWidth = 'thick';
+});

@@ -4,6 +4,10 @@
     }
 }
 @include media(tablet-portrait){
+    .banner{
+        padding: 0% !important;
+        padding-top: 10% !important;
+    }
     .banner .banner-container h2 {
         width: 38% !important;
     }
