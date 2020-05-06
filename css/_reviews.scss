@@ -1,20 +1,61 @@
+@include media(tablet-landscape){
+    .reviews{
+        .reviews-content{
+            width: 76% !important;
+        }
+    }
+}
+@include media(tablet-portrait){
+    .reviews{
+        .reviews-content{
+            width: 95% !important;
+        }
+    }
+}
+@include media(phone){
+    .reviews{
+        .reviews-content{
+            display: block !important;
+            width: 100% !important;
+            .reviews-content--left{
+                width: 100% !important;
+            }
+            .reviews-content--right{
+                width: 100% !important;
+                padding: 1% !important;
+                padding-top: 8% !important;
+                text-align: center;
+                .reviews-bottom--icon{
+                    width: 28% !important;
+                    margin: 0px auto;
+                }
+            }
+        }
+    }
+}
+
 .reviews{
-    padding-top:7rem;
+    padding-top:9rem;
     .reviews-container{
         h2{
             text-align: center;
         }
         .reviews-content{
-            width: 45%;
+            width: 50%;
             margin: 0px auto;
             padding: 3%;
+            padding-top: 5%;
             justify-content: space-between;
             .reviews-content--left{
-                width: 40%;
+                width: 37%;
+                .review-img{
+                    width: 100%;
+                }
             }
             .reviews-content--right{
-                width: 56%;
-                p{
+                width: 59%;
+                .reviews-right--text{
+                    p{
                     width: 100%;
                     color: #8B8E91;
                     font-style: italic;
@@ -22,7 +63,39 @@
                     line-height: 22px;
                     text-align: left;
                     letter-spacing: 1px;
+                    }
+                    i{
+                    font-size: 1.8rem;
+                    margin-top: -1rem;
+                    padding: 0.3rem;
+                    color: #0099FF;
+
+                    }
                 }
+                .reviews-right--bottom{
+                    padding: 9%;
+                    h3{
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                        padding-bottom: 0.6rem;
+                    }
+                    h6{
+                        font-size: 1.25rem;
+                        font-weight: 400;
+                    }
+                }
+                .reviews-bottom--icon{
+                    width: 20%;
+                    padding: 9%;
+                    i{
+                        font-size: 0.5625rem;
+                        padding: 0.4rem;
+                        color: #EAEEF1;
+                    }
+                    i:nth-of-type(1){
+                        color: #0099FF;
+                    }
+                }                
             }
         }
     }

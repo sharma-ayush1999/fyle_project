@@ -6586,8 +6586,40 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+@media (max-width: 1025px) {
+  .reviews .reviews-content {
+    width: 76% !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .reviews .reviews-content {
+    width: 95% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .reviews .reviews-content {
+    display: block !important;
+    width: 100% !important;
+  }
+  .reviews .reviews-content .reviews-content--left {
+    width: 100% !important;
+  }
+  .reviews .reviews-content .reviews-content--right {
+    width: 100% !important;
+    padding: 1% !important;
+    padding-top: 8% !important;
+    text-align: center;
+  }
+  .reviews .reviews-content .reviews-content--right .reviews-bottom--icon {
+    width: 28% !important;
+    margin: 0px auto;
+  }
+}
+
 .reviews {
-  padding-top: 7rem;
+  padding-top: 9rem;
 }
 
 .reviews .reviews-container h2 {
@@ -6595,23 +6627,28 @@ readers do not read off random characters that represent icons */
 }
 
 .reviews .reviews-container .reviews-content {
-  width: 45%;
+  width: 50%;
   margin: 0px auto;
   padding: 3%;
+  padding-top: 5%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .reviews .reviews-container .reviews-content .reviews-content--left {
-  width: 40%;
+  width: 37%;
+}
+
+.reviews .reviews-container .reviews-content .reviews-content--left .review-img {
+  width: 100%;
 }
 
 .reviews .reviews-container .reviews-content .reviews-content--right {
-  width: 56%;
+  width: 59%;
 }
 
-.reviews .reviews-container .reviews-content .reviews-content--right p {
+.reviews .reviews-container .reviews-content .reviews-content--right .reviews-right--text p {
   width: 100%;
   color: #8B8E91;
   font-style: italic;
@@ -6619,6 +6656,43 @@ readers do not read off random characters that represent icons */
   line-height: 22px;
   text-align: left;
   letter-spacing: 1px;
+}
+
+.reviews .reviews-container .reviews-content .reviews-content--right .reviews-right--text i {
+  font-size: 1.8rem;
+  margin-top: -1rem;
+  padding: 0.3rem;
+  color: #0099FF;
+}
+
+.reviews .reviews-container .reviews-content .reviews-content--right .reviews-right--bottom {
+  padding: 9%;
+}
+
+.reviews .reviews-container .reviews-content .reviews-content--right .reviews-right--bottom h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 0.6rem;
+}
+
+.reviews .reviews-container .reviews-content .reviews-content--right .reviews-right--bottom h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.reviews .reviews-container .reviews-content .reviews-content--right .reviews-bottom--icon {
+  width: 20%;
+  padding: 9%;
+}
+
+.reviews .reviews-container .reviews-content .reviews-content--right .reviews-bottom--icon i {
+  font-size: 0.5625rem;
+  padding: 0.4rem;
+  color: #EAEEF1;
+}
+
+.reviews .reviews-container .reviews-content .reviews-content--right .reviews-bottom--icon i:nth-of-type(1) {
+  color: #0099FF;
 }
 
 body {
