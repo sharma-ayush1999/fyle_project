@@ -1,3 +1,4 @@
+
 .btn{
     width: 48%;
     height: 3rem;
@@ -9,6 +10,7 @@
     line-height: 1.1875rem;
     text-align: center;
     transition: all 0.3s ease-in-out;
+    outline: none;
 }
 .btn-blue{
     background-color: #0099FF;
@@ -32,10 +34,13 @@
     background-color: #FFFFFF;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
     border-radius: 0px !important;
-    width: 7.813rem;
+    width: 7.9rem;
     height: 2.875rem;
     font-size: 0.875rem;
     font-weight: 700;
-    line-height: 17px;
+    line-height: 2.8rem;
     transition: none;
+}
+.btn-border{
+    border: 3px solid #0099FF;
 }

@@ -1,0 +1,29 @@
+.reviews{
+    padding-top:7rem;
+    .reviews-container{
+        h2{
+            text-align: center;
+        }
+        .reviews-content{
+            width: 45%;
+            margin: 0px auto;
+            padding: 3%;
+            justify-content: space-between;
+            .reviews-content--left{
+                width: 40%;
+            }
+            .reviews-content--right{
+                width: 56%;
+                p{
+                    width: 100%;
+                    color: #8B8E91;
+                    font-style: italic;
+                    font-weight: 500;
+                    line-height: 22px;
+                    text-align: left;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
