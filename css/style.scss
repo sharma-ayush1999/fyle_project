@@ -1,16 +1,18 @@
+@import "mediaquery";
 @import "fontawesome";
 @import "solid";
 @import "regular";
 @import "brands";
 @import "reset";
 @import "font-family";
-@import "mediaquery";
 @import "button";
 @import "header";
 @import "banner";
 @import "gallery";
 @import "reviews";
 @import "footer";
+@import "loader";
+@import "scrollbar";
 
 body{
     padding-left: 3rem;

@@ -1,0 +1,57 @@
+@include media(tablet-portrait){
+    .loader{
+        top: 40%;
+        left: 40% !important;
+      }
+}
+@include media(phone){
+    .loader{
+        top: 40%;
+        left: 30% !important;
+      }
+}
+.lds-ripple {
+  background-color: #fff;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+}
+.loader{
+
+  position: absolute;
+  border: 0px solid transparent;
+  opacity: 1;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: 40%;
+  left: 45%;
+}
+.loader:before,.loader:after{
+    content: '';
+    border: 1em solid #5d41da;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.loader:before{
+    animation-delay: 0.5s;
+}
+@keyframes loader {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

@@ -1,4 +1,9 @@
 
+/*---------Loader----------------*/
+setTimeout(function(){
+    $('.lds-ripple').fadeToggle();
+}, 1000);
+
 /*---------icon-color-------------*/
 
 let right = document.getElementsByClassName('fa-check');
