@@ -6122,6 +6122,8 @@ readers do not read off random characters that represent icons */
 
 .active {
   border: 3px solid #0099FF;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (max-width: 1025px) {
