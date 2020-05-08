@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="lds-ripple">
-        <div class="loader"></div>
-    </div>
+    <section class="lds-ripple">
+        <section class="loader"></section>
+    </section>
     <section class="header">
         <section class="header-container flex">
             <section class="header-left">
@@ -162,5 +162,13 @@
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="main.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn-white').click(function(){
+            $('.btn-white').removeClass("active");
+            $(this).addClass("active");
+        });
+        });
+    </script>
 </body>
 </html>

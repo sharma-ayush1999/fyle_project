@@ -6120,6 +6120,10 @@ readers do not read off random characters that represent icons */
   border: 3px solid #0099FF;
 }
 
+.active {
+  border: 3px solid #0099FF;
+}
+
 @media (max-width: 1025px) {
   .header-container {
     padding-left: 2% !important;
@@ -6765,17 +6769,24 @@ readers do not read off random characters that represent icons */
   width: 60%;
 }
 
+@media (max-width: 1025px) {
+  .loader {
+    top: 40% !important;
+    left: 36% !important;
+  }
+}
+
 @media (max-width: 800px) {
   .loader {
-    top: 40%;
-    left: 40% !important;
+    top: 40% !important;
+    left: 33% !important;
   }
 }
 
 @media (max-width: 500px) {
   .loader {
-    top: 40%;
-    left: 30% !important;
+    top: 36% !important;
+    left: 15% !important;
   }
 }
 
@@ -6794,13 +6805,13 @@ readers do not read off random characters that represent icons */
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  top: 40%;
-  left: 45%;
+  top: 35%;
+  left: 41%;
 }
 
 .loader:before, .loader:after {
   content: '';
-  border: 1em solid #5d41da;
+  border: 1em solid #0099FF;
   border-radius: 50%;
   width: inherit;
   height: inherit;
@@ -6849,20 +6860,21 @@ readers do not read off random characters that represent icons */
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
-}
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 5px grey;
-          box-shadow: inset 0 0 5px grey;
+  background: #FFFFFF;
+  border-radius: 4px;
+  height: 8px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0099FF;
+  background: #D8D8D8;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #006ab0;
+  background: #979797;
+  border-radius: 4px;
+  scrollbar-width: auto;
 }
 
 body {

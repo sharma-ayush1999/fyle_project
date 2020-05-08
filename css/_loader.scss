@@ -1,13 +1,19 @@
+@include media(tablet-landscape){
+  .loader{
+      top: 40% !important;
+      left: 36% !important;
+    }
+}
 @include media(tablet-portrait){
     .loader{
-        top: 40%;
-        left: 40% !important;
+        top: 40% !important;
+        left: 33% !important;
       }
 }
 @include media(phone){
     .loader{
-        top: 40%;
-        left: 30% !important;
+        top: 36% !important;
+        left: 15% !important;
       }
 }
 .lds-ripple {
@@ -25,12 +31,12 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  top: 40%;
-  left: 45%;
+  top: 35%;
+  left: 41%;
 }
 .loader:before,.loader:after{
     content: '';
-    border: 1em solid #5d41da;
+    border: 1em solid #0099FF;
     border-radius: 50%;
     width: inherit;
     height: inherit;

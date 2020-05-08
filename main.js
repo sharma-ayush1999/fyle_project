@@ -2,7 +2,7 @@
 /*---------Loader----------------*/
 setTimeout(function(){
     $('.lds-ripple').fadeToggle();
-}, 1000);
+}, 1500);
 
 /*---------icon-color-------------*/
 
@@ -17,16 +17,4 @@ for (let i = 0; i < cross.length; i++) {
 
 /*--------button-border--------*/
 
-var buttons = document.getElementsByClassName("btn"); 
-var c = 0;
-if(c == 0){
-for (var i = 0; i < buttons.length; i++) {
-  document.getElementsByClassName("btn-white")[i].addEventListener("click", function() {
-    this.classList.add("btn-border");
-    c = 1;
-});   
-}
-}
-else{
-    
-}
+
